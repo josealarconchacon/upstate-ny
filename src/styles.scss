@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Import Bootstrap using modern syntax
+@use "bootstrap/scss/bootstrap" as bootstrap;
+
+// Import Bootstrap Icons using modern syntax
+@use "bootstrap-icons/font/bootstrap-icons" as bootstrap-icons;
+
+// Global styles
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+// Custom utility classes
+.bg-primary-soft {
+  background-color: rgba(0, 170, 108, 0.1);
+  color: #00aa6c;
+}
+
+.bg-secondary-soft {
+  background-color: rgba(51, 51, 51, 0.1);
+  color: #333;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+}

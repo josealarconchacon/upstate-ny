@@ -1,0 +1,1340 @@
+[
+  {
+    "id": "1",
+    "name": "Beacon",
+    "state": "NY",
+    "latitude": 41.504783,
+    "longitude": -73.969542,
+    "trip_types": ["Daytrip", "Weekend"],
+    "transit_options": ["Car", "Train"],
+    "categories": ["hike", "art", "explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": "../images/beacon.jpg",
+    "places": [
+      {
+        "id": "31",
+        "name": "Ella's Bellas",
+        "type": ["Bakery", "Cafe"],
+        "street": "418 Main St #420, Beacon",
+        "zip": "12508",
+        "latitude": 41.502950255890006,
+        "longitude": -73.96586000197979,
+        "website": "https://www.ellasbellasbeacon.com/",
+        "categories": ["coffee", "food"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/ellas-bellas-beacon"
+        },
+        "images": "https://images.squarespace-cdn.com/content/v1/58ed0f2be6f2e1fd8e744d26/1538491775605-B8SDSA7NUVYUNJKYC98X/EllasBellas_136.jpg"
+      },
+      {
+        "id": "35",
+        "name": "Storm King Art Center",
+        "type": ["Park"],
+        "street": "1 Museum Rd, New Windsor",
+        "zip": "12553",
+        "latitude": 41.42494537816287,
+        "longitude": -74.06183171226336,
+        "website": "https://stormking.org/",
+        "categories": ["art", "outdoors"],
+        "social_media": {
+          "instagram": "https://www.instagram.com/stormkingartcenter/",
+          "facebook": "https://www.facebook.com/StormKingArtCenter/",
+          "yelp": null
+        },
+        "images": "https://images.unsplash.com/photo-1662426793627-0229e7ef6308?q=80&w=3150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": "36",
+        "name": "Dia Beacon",
+        "type": ["Museum"],
+        "street": "3 Beekman St, Beacon",
+        "zip": "12508",
+        "latitude": 41.50022797287221,
+        "longitude": -73.98255567113156,
+        "website": "https://www.diaart.org/",
+        "categories": ["art"],
+        "social_media": {
+          "instagram": "https://www.instagram.com/diaartfoundation/",
+          "facebook": "https://www.facebook.com/diaartfoundation/#",
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipOvX52TNY4XKK1uE3_iB8xdSERgxpwGxam3mETN=s1360-w1360-h1020"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Saratoga Springs",
+    "state": "NY",
+    "latitude": 43.08301,
+    "longitude": -73.784561,
+    "trip_types": ["Weekend"],
+    "transit_options": ["Car", "Train", "Bike"],
+    "categories": ["explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": "../images/saratoga-springs.jpg",
+    "places": [
+      {
+        "id": "56",
+        "name": "Brentwood Hotel",
+        "type": ["Hotel"],
+        "street": "15 Gridley St, Saratoga Springs",
+        "zip": "12866",
+        "latitude": 43.06812740614864,
+        "longitude": -73.77255981343318,
+        "website": "https://www.brentwood-hotel.com/",
+        "categories": [],
+        "social_media": {
+          "instagram": "https://www.instagram.com/the_brentwood/",
+          "facebook": "https://www.facebook.com/brentwoodsaratoga/",
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipN_-l5vdeUZtkxYAM0BUqllTNgwU5-HTZ4_JNyv=s1360-w1360-h1020"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Woodstock",
+    "state": "NY",
+    "latitude": 42.0409,
+    "longitude": -74.118293,
+    "trip_types": ["Weekend"],
+    "transit_options": ["Car"],
+    "categories": ["hike", "explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": "../images/wood-stock.jpg",
+    "places": [
+      {
+        "id": "21",
+        "name": "Fruition Chocolate",
+        "type": ["Store"],
+        "street": "3091 NY-28, Shokan",
+        "zip": "12481",
+        "latitude": 41.97394997999921,
+        "longitude": -74.20286475773766,
+        "website": "https://www.fruitionchocolateworks.com/",
+        "categories": ["chocolate"],
+        "social_media": {
+          "instagram": "https://www.instagram.com/fruitionchocolate/",
+          "facebook": "https://www.facebook.com/fruitionchocolate",
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipPID0MZLJxkk66JG5oL_WflseIAP0MFUGN7shYG=s1360-w1360-h1020"
+      },
+      {
+        "id": "26",
+        "name": "Glo Spa",
+        "type": ["Spa"],
+        "street": "292 NY-375, West Hurley",
+        "zip": "12491",
+        "latitude": 42.00568932011219,
+        "longitude": -74.10625515567985,
+        "website": "https://glowoodstockdayspa.com/",
+        "categories": ["spa"],
+        "social_media": {
+          "instagram": "https://www.instagram.com/glowoodstockdayspa/",
+          "facebook": "https://www.facebook.com/glowoodstockdayspa",
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipOhocKBYFHGdnvr3PYSYwNPaZl_po4GPxRdVbyk=s1360-w1360-h1020"
+      },
+      {
+        "id": "46",
+        "name": "Woodstock Way",
+        "type": ["Hotel"],
+        "street": "10 Waterfall Way, Woodstock",
+        "zip": "12498",
+        "latitude": 42.039473,
+        "longitude": -74.119913,
+        "website": "https://www.woodstockway.com/",
+        "categories": ["Hotel"],
+        "social_media": {
+          "instagram": "woodstockwayhotel",
+          "facebook": "woodstockway",
+          "yelp": "https://www.yelp.com/biz/woodstock-way-hotel-woodstock"
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipMB6ciLFg4lJCokQ728yfOJ-G3tZojpdM4HNfBz=s1360-w1360-h1020"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "New Paltz",
+    "state": "NY",
+    "latitude": 41.747544,
+    "longitude": -74.086708,
+    "trip_types": ["Weekend"],
+    "transit_options": ["Car", "Train", "Bike"],
+    "categories": ["hike", "explore", "rich history"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": "../images/new-paltz.jpg",
+    "places": [
+      {
+        "id": "17",
+        "name": "Lagusta’s Luscious Commissary",
+        "type": ["Cafe"],
+        "street": "1514, 11 Church St #1",
+        "zip": "12561",
+        "latitude": 41.748283,
+        "longitude": -74.086089,
+        "website": null,
+        "categories": ["coffee", "food", "chocolate"],
+        "social_media": {
+          "instagram": "lagustasluscious",
+          "facebook": "LLCommissary",
+          "yelp": "https://www.yelp.com/biz/lagustas-luscious-commissary-new-paltz-2"
+        },
+        "images": null
+      },
+      {
+        "id": "18",
+        "name": "Lagusta’s Luscious",
+        "type": ["Store"],
+        "street": "25 N Front St",
+        "zip": "12561",
+        "latitude": 41.749756,
+        "longitude": -74.087181,
+        "website": "https://lagustasluscious.com/shop/",
+        "categories": ["chocolate"],
+        "social_media": {
+          "instagram": "lagustasluscious",
+          "facebook": null,
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipMJhPOFXsE0OG0ig6d6Mao053cFweTnDoBoIcFo=s1360-w1360-h1020"
+      },
+      {
+        "id": "62",
+        "name": "Wallkill View Farm Market",
+        "type": ["Farm", "Market"],
+        "street": "15 NY-299",
+        "zip": "12561",
+        "latitude": 41.74587308748043,
+        "longitude": -74.10418036443274,
+        "website": "http://wallkillviewfarmnewpaltz.com/",
+        "categories": ["farm stand", "pumpkin patch", "corn maze"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/wallkill-view-farm-market-new-paltz"
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipNcPd8BYM9U3FrHtRinc4_L0BuiPYQ-wZ5QJXHI=s1360-w1360-h1020"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Cold Spring",
+    "state": "NY",
+    "latitude": 41.420165,
+    "longitude": -73.954501,
+    "trip_types": ["Daytrip", "Weekend"],
+    "transit_options": ["Car", "Train"],
+    "categories": ["hike", "explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": "../images/cold-spring.jpg",
+    "places": [
+      {
+        "id": "25",
+        "name": "Split Rock Books",
+        "type": ["Bookstore"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "https://www.splitrockbks.com/",
+        "categories": ["books"],
+        "social_media": {
+          "instagram": "splitrockbks",
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/split-rock-books-cold-spring"
+        },
+        "images": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-EgNRTHKOIEL33YGgiuli3imqPt6MUv3M4xJ8w9hAVqReOTty_AMGhQ8P_fsBBPf67S9JEMldGHLQfi9u0xttrr7sIhmIBJBIdM8EVmtNtMGZkFrXCVzRBKeOFie7e2yKHjRjF=s1360-w1360-h1020"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Peekskill",
+    "state": "NY",
+    "latitude": 41.290129,
+    "longitude": -73.920613,
+    "trip_types": ["Daytrip"],
+    "transit_options": ["Car", "Train"],
+    "categories": ["explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": "../images/peekskill.jpg",
+    "places": []
+  },
+  {
+    "id": "7",
+    "name": "Hudson",
+    "state": "NY",
+    "latitude": 42.252237,
+    "longitude": -73.790314,
+    "trip_types": ["Weekend"],
+    "transit_options": ["Car", "Train"],
+    "categories": ["explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": "../images/hudson.jpg",
+    "places": [
+      {
+        "id": "22",
+        "name": "MOTO Coffee/Machine",
+        "type": ["Cafe", "Store"],
+        "street": "357 Warren St",
+        "zip": "12534",
+        "latitude": 42.251581,
+        "longitude": -73.789299,
+        "website": "http://www.motocoffeemachine.com/",
+        "categories": ["coffee", "store"],
+        "social_media": {
+          "instagram": "motocoffeemachine",
+          "facebook": "motocoffeemachine",
+          "yelp": "https://www.yelp.com/biz/moto-coffee-machine-hudson"
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipPBuUJ5AnXmPZke-yVhDsrTEkY4O6MZXyhPjJ1E=s1360-w1360-h1020"
+      },
+      {
+        "id": "23",
+        "name": "Hudson Food Studio",
+        "type": ["Restaurant"],
+        "street": "746 Warren St",
+        "zip": "12534",
+        "latitude": 42.246342,
+        "longitude": -73.78188,
+        "website": "https://hudsonfoodstudio.com/",
+        "categories": ["food", "drink"],
+        "social_media": {
+          "instagram": "hudsonfoodstudio",
+          "facebook": "HudsonFoodStudio",
+          "yelp": "https://www.yelp.com/biz/hudson-food-studio-hudson"
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipNByiBqgbwRKh9j5Iufe9kDDst4xFlFFvGtQ5n-=s1360-w1360-h1020"
+      },
+      {
+        "id": "24",
+        "name": "Aeble",
+        "type": ["Restaurant"],
+        "street": "449 Warren St",
+        "zip": "12534",
+        "latitude": 42.249714,
+        "longitude": -73.787203,
+        "website": "http://www.aebleny.com/",
+        "categories": ["food", "drink"],
+        "social_media": {
+          "instagram": "aebleny",
+          "facebook": null,
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8cMcKkt0JTEqLvh5LQ181C2IPSwvt4Q7XZ2OEBs4Yj48xOdOAyyQqeYGT-aWajA8iSd0k8YmjPeIXLx-iSg88hFiqW-qf2-28dC9z-dPew27g7XIg18r1mIzaeOX4cXPmEUwB8=s1360-w1360-h1020"
+      },
+      {
+        "id": "55",
+        "name": "Rivertown Lodge",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipMj6_Iw4IrlPFryCU8A5qMh7HmyU_C0hEQwuGxX=s680-w680-h510"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Kingston",
+    "state": "NY",
+    "latitude": 41.926996,
+    "longitude": -73.997301,
+    "trip_types": ["Weekend"],
+    "transit_options": ["Car"],
+    "categories": ["hike", "explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "28",
+        "name": "Kingston Bike Rentals",
+        "type": ["Activity"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["bike"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/p/AF1QipOeyX_pVMW2zslGtcB928yTNqznwi35mpfuSNx7=s1360-w1360-h1020"
+      },
+      {
+        "id": "37",
+        "name": "Rondout Historic Waterfront District",
+        "type": ["Activity"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["explore", "outdoors"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      },
+      {
+        "id": "63",
+        "name": "South Pine Street City Farm",
+        "type": ["Farm", "Market"],
+        "street": "27 South Pine Street",
+        "zip": "12401",
+        "latitude": 41.92413716920438,
+        "longitude": -74.0110370026427,
+        "website": "https://southpinestreetcityfarm.org/",
+        "categories": ["farm stand"],
+        "social_media": {
+          "instagram": null,
+          "facebook": "https://www.facebook.com/southpinestreetfarm/",
+          "yelp": null
+        },
+        "images": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_No2v_7zfXcDURpnXn6eJEyGlPuViuAVKqKvkBVl2yCHnozF7Do-1QdLiWJJwjrO67BJPVHnA7ohgYEno5yOQeMK6jPpGSHe-8FrrFhS65CFAOXWmdb8vCO1Of5fLxOIbrcnHizQ=s1360-w1360-h1020"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Gardiner",
+    "state": "NY",
+    "latitude": 41.679843,
+    "longitude": -74.15043,
+    "trip_types": ["Weekend"],
+    "transit_options": ["Car"],
+    "categories": ["hike", "explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "13",
+        "name": "Gardiner Liquid Mercantile",
+        "type": ["Distillery", "Bar"],
+        "street": null,
+        "zip": null,
+        "latitude": 41.680202,
+        "longitude": -74.151175,
+        "website": "http://www.gardinerliquidmercantile.com/",
+        "categories": ["drink"],
+        "social_media": {
+          "instagram": null,
+          "facebook": "LiquidMercantile",
+          "yelp": "https://www.yelp.com/biz/gardiner-liquid-mercantile-gardiner"
+        },
+        "images": null
+      },
+      {
+        "id": "14",
+        "name": "Cafe Mio",
+        "type": ["Restaurant"],
+        "street": null,
+        "zip": null,
+        "latitude": 41.679025,
+        "longitude": -74.150401,
+        "website": "https://www.miogardiner.com/",
+        "categories": ["food", "drink"],
+        "social_media": {
+          "instagram": "cafemio_gardiner",
+          "facebook": "miogardiner",
+          "yelp": "https://www.yelp.com/biz/cafe-mio-gardiner"
+        },
+        "images": null
+      },
+      {
+        "id": "16",
+        "name": "Tuthilltown Distillery",
+        "type": ["Distillery"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "http://www.tuthilltown.com/",
+        "categories": ["drink"],
+        "social_media": {
+          "instagram": "tuthilltown",
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      },
+      {
+        "id": "61",
+        "name": "Wright's Farm",
+        "type": ["Farm", "Market"],
+        "street": "699 NY-208, Gardiner",
+        "zip": "12525",
+        "latitude": 41.66756062164854,
+        "longitude": -74.13750240670063,
+        "website": "http://www.eatapples.com/",
+        "categories": ["apple picking", "farm market"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/wrights-farm-gardiner-2"
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Kerhonkson",
+    "state": "NY",
+    "latitude": 41.774771,
+    "longitude": -74.298034,
+    "trip_types": ["Weekend"],
+    "transit_options": ["Car"],
+    "categories": ["hike", "explore"],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "41",
+        "name": "Minnewaska State Park Preserve",
+        "type": ["State Park"],
+        "street": null,
+        "zip": null,
+        "latitude": 41.730071,
+        "longitude": -74.235182,
+        "website": null,
+        "categories": ["hiking", "outdoors"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Big Indian",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "12",
+        "name": "Peekamoose",
+        "type": ["Restaurant"],
+        "street": "8373 NY-28",
+        "zip": "12410",
+        "latitude": 42.107504,
+        "longitude": -74.450556,
+        "website": "https://peekamooserestaurant.com/",
+        "categories": ["food", "drink"],
+        "social_media": {
+          "instagram": null,
+          "facebook": "PeekamooseRestaurantandTapRoom",
+          "yelp": "https://www.yelp.com/biz/peekamoose-restaurant-and-tap-room-big-indian"
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Germantown",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "15",
+        "name": "Gaskins",
+        "type": ["Restaurant"],
+        "street": "2 Church Ave",
+        "zip": "12526",
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["food", "drink"],
+        "social_media": {
+          "instagram": "gaskinsny",
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Newburgh",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "19",
+        "name": "Ms. Fairfax",
+        "type": ["Restaurant"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "http://www.msfairfax.com/",
+        "categories": ["food", "drink"],
+        "social_media": {
+          "instagram": "ms.fairfax",
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/ms-fairfax-newburgh"
+        },
+        "images": null
+      },
+      {
+        "id": "20",
+        "name": "Newburgh Flour Shop",
+        "type": ["Bakery"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "https://www.newburghflourshop.com/",
+        "categories": ["coffee", "bakery"],
+        "social_media": {
+          "instagram": "newburgh_flour_shop",
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/newburgh-flour-shop-newburgh"
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Stone Ridge",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "27",
+        "name": "Hash Hash",
+        "type": ["Restaurant"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["coffee", "food"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      },
+      {
+        "id": "54",
+        "name": "Hasbrouck House",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Accord",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "29",
+        "name": "Arrowood Farm Brewery",
+        "type": ["Brewery"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "http://www.arrowoodfarms.com/",
+        "categories": ["drink"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/arrowood-farm-brewery-accord"
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Poughkeepsie",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "30",
+        "name": "Walkway Over the Hudson State Historic Park",
+        "type": ["Park"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["coffee", "food"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Hyde Park",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "33",
+        "name": "Hyde Park Drive In",
+        "type": ["Activity"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["movies"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/hyde-park-drive-in-theatre-hyde-park"
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Hunter",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "40",
+        "name": "Kaaterskill Falls",
+        "type": ["State Park"],
+        "street": null,
+        "zip": null,
+        "latitude": 42.19125,
+        "longitude": -74.07051,
+        "website": null,
+        "categories": ["hiking", "outdoors"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      },
+      {
+        "id": "47",
+        "name": "Scribner's Catskill Lodge",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Rosendale",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "44",
+        "name": "Rosendale Trestle",
+        "type": ["Activity"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "https://wallkillvalleylt.org/index.php/rail-trail/getting-to-the-trestle",
+        "categories": ["outdoors"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Callicoon",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "48",
+        "name": "Nine River Road",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Livingston Manor",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "49",
+        "name": "The Debruce",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      },
+      {
+        "id": "57",
+        "name": "The Arnold House",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "North Branch",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "50",
+        "name": "The North Branch Inn",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Mt. Tremper",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "51",
+        "name": "Foxfire Mountain House",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Tannersville",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "52",
+        "name": "Deer Mountain Inn",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "http://deermountaininn.com/",
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/deer-mountain-inn-tannersville"
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Rhinebeck",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "53",
+        "name": "The Dutchess",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Salt Point",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "58",
+        "name": "Salvato Mill",
+        "type": ["Hotel"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": "http://www.salvatomill.com/",
+        "categories": [],
+        "social_media": {
+          "instagram": "salvatomill",
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "West Kill",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "59",
+        "name": "Spruceton Inn",
+        "type": ["Hotel"],
+        "street": "2080 Spruceton Rd",
+        "zip": "12492",
+        "latitude": 42.19021738141083,
+        "longitude": -74.29695333556421,
+        "website": "https://www.sprucetoninn.com/",
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": "https://www.yelp.com/biz/spruceton-inn-west-kill"
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Sleepy Hollow",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "39",
+        "name": "Rockefeller State Park",
+        "type": ["State Park"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["hiking", "outdoors"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Bear Mountain",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "42",
+        "name": "Bear Mountain",
+        "type": ["State Park"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": ["hiking", "outdoors"],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  },
+  {
+    "id": null,
+    "name": "Cragsmoor",
+    "state": "NY",
+    "latitude": null,
+    "longitude": null,
+    "trip_types": [],
+    "transit_options": [],
+    "categories": [],
+    "social_media": {
+      "instagram": null,
+      "facebook": null,
+      "yelp": null
+    },
+    "images": null,
+    "places": [
+      {
+        "id": "43",
+        "name": "Sam's Point Preserve",
+        "type": ["State Park"],
+        "street": null,
+        "zip": null,
+        "latitude": null,
+        "longitude": null,
+        "website": null,
+        "categories": [],
+        "social_media": {
+          "instagram": null,
+          "facebook": null,
+          "yelp": null
+        },
+        "images": null
+      }
+    ]
+  }
+]

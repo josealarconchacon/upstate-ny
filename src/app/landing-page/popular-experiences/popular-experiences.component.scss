@@ -1,0 +1,85 @@
+@use "../styles/variables" as *;
+
+.experiences-section {
+  .section-title {
+    font-weight: 600;
+    color: $dark-color;
+  }
+
+  .experience-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-img-wrapper {
+      height: 200px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      &:hover img {
+        transform: scale(1.05);
+      }
+    }
+
+    .card-title {
+      font-weight: 600;
+      color: $dark-color;
+    }
+
+    .badge {
+      font-weight: 500;
+      padding: 0.4rem 0.6rem;
+      border-radius: 20px;
+    }
+
+    .bg-primary-soft {
+      background-color: rgba($primary-color, 0.1);
+      color: $primary-color;
+    }
+
+    .social-media {
+      margin-top: 1rem;
+
+      .social-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: rgba($primary-color, 0.1);
+        color: $primary-color;
+        margin-right: 0.5rem;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: $primary-color;
+          color: white;
+          transform: translateY(-2px);
+        }
+
+        i {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .btn-outline-primary {
+      color: $primary-color;
+      border-color: $primary-color;
+
+      &:hover {
+        background-color: $primary-color;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+<!-- Featured Towns Section -->
+<section class="featured-section py-5 bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="section-title mb-0">Featured Destinations</h2>
+      <a href="#" class="btn btn-outline-primary">View All</a>
+    </div>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-3" *ngFor="let town of featuredTowns">
+        <div class="card h-100 town-card border-0 shadow-sm">
+          <div class="card-img-wrapper position-relative">
+            <img
+              [src]="getImagePath(town.images)"
+              [alt]="town.name"
+              class="card-img-top"
+              loading="lazy"
+              (error)="handleImageError($event)"
+            />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title h5 mb-2">{{ town.name }}</h3>
+            <p class="text-muted small mb-2">{{ town.state }}</p>
+            <div class="trip-types mb-2">
+              <span
+                class="badge bg-primary-soft me-1"
+                *ngFor="let type of town.trip_types"
+              >
+                {{ type }}
+              </span>
+            </div>
+            <div class="categories">
+              <span
+                class="badge bg-secondary-soft me-1"
+                *ngFor="let category of town.categories"
+              >
+                {{ category }}
+              </span>
+            </div>
+            <div class="social-media" *ngIf="town.social_media">
+              <a
+                *ngIf="hasSocialMedia(town.social_media, 'instagram')"
+                [href]="town.social_media.instagram"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                *ngIf="hasSocialMedia(town.social_media, 'facebook')"
+                [href]="town.social_media.facebook"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                *ngIf="hasSocialMedia(town.social_media, 'yelp')"
+                [href]="town.social_media.yelp"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-yelp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

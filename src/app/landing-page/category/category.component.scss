@@ -1,0 +1,136 @@
+.categories-section {
+  padding: 3rem 0;
+  background-color: #f9f9f9;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0;
+  letter-spacing: -0.5px;
+  position: relative;
+  display: inline-block;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    background-color: #3498db;
+    border-radius: 2px;
+  }
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: #666;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.category-item {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+
+    .category-content {
+      background-color: #ffffff;
+    }
+
+    .category-icon {
+      transform: scale(1.1);
+
+      i {
+        color: #3498db;
+      }
+    }
+  }
+}
+
+.category-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.category-icon {
+  margin-bottom: 0.75rem;
+  transition: transform 0.3s ease;
+
+  i {
+    font-size: 1.75rem;
+    color: #3498db;
+    transition: color 0.3s ease;
+  }
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+  text-align: center;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .categories-section {
+    padding: 2rem 0;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .categories-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .category-content {
+    padding: 1rem;
+  }
+
+  .category-icon i {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}

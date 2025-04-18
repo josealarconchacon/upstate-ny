@@ -1,0 +1,81 @@
+<!-- Hero Section with Search -->
+<section class="hero-section position-relative">
+  <div class="hero-background"></div>
+  <div class="hero-overlay"></div>
+  <div class="container position-relative">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center text-white py-5">
+        <h1 class="display-3 fw-bold mb-3">Discover Upstate New York</h1>
+        <p class="lead mb-4">
+          Explore charming towns, scenic landscapes, and unique experiences in
+          the heart of New York State
+        </p>
+
+        <!-- Enhanced Search Box -->
+        <div class="search-container">
+          <div class="search-box bg-white p-4 rounded-4 shadow-lg">
+            <div class="search-tabs mb-3">
+              <button class="search-tab active" data-tab="destinations">
+                <i class="bi bi-geo-alt me-2"></i>Destinations
+              </button>
+              <button class="search-tab" data-tab="experiences">
+                <i class="bi bi-compass me-2"></i>Experiences
+              </button>
+              <button class="search-tab" data-tab="places">
+                <i class="bi bi-building me-2"></i>Places
+              </button>
+            </div>
+
+            <div class="search-content">
+              <div class="search-input-group mb-3">
+                <div class="input-group">
+                  <span class="input-group-text bg-transparent border-0">
+                    <i class="bi bi-search text-muted"></i>
+                  </span>
+                  <input
+                    type="text"
+                    class="form-control border-0"
+                    placeholder="Where to?"
+                    [(ngModel)]="searchQuery"
+                    (input)="onSearchInput($event)"
+                  />
+                  <button
+                    class="btn btn-primary rounded-pill px-4"
+                    (click)="onSearch()"
+                  >
+                    Search
+                  </button>
+                </div>
+                <div
+                  class="search-suggestions"
+                  *ngIf="searchSuggestions.length > 0"
+                >
+                  <div
+                    class="suggestion-item"
+                    *ngFor="let suggestion of searchSuggestions"
+                    (click)="selectSuggestion(suggestion)"
+                  >
+                    <i class="bi bi-geo-alt me-2"></i>
+                    <span>{{ suggestion }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Categories Section -->
+<app-category [categories]="['hike', 'art', 'explore', 'food']"></app-category>
+
+<!-- Featured Towns Section -->
+<app-featured-towns [featuredTowns]="featuredTowns"></app-featured-towns>
+
+<!-- Popular Experiences Section -->
+<app-popular-experiences [experiences]="experiences"></app-popular-experiences>
+
+<!-- Newsletter Section -->
+<app-footer (subscribe)="onSubscribe($event)"></app-footer>
